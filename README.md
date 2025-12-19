@@ -4,6 +4,19 @@ Common git commands that are difficult to remember
 ## Remote Commands
 
 ```bash
+# My own (Giddy-Up224) preference for adding remote
+
+# If you accidentally pushed to the wrong remote 🫤
+git remote remove origin
+
+# Connect local repo to remote repo
+git remote add origin https://github.com/<account>/<repo>
+
+# Push local to remote
+git push -u origin main
+```
+
+```bash
 # List all remotes and their URLs
 git remote -v
 
