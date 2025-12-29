@@ -11,6 +11,7 @@ git remote add upstream https://github.com/userName/Repo # Optional
 git push origin main
 git push --all
 ```
+* Credits: [Stack Overflow: How do you fork your own repository on GitHub](https://stackoverflow.com/questions/10963878/how-do-you-fork-your-own-repository-on-github)
 
 ## Remote Commands
 
