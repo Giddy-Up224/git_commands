@@ -1,6 +1,17 @@
 # git_commands
 Common git commands that are difficult to remember
 
+## Clone your own Github repo (because GitHub doesn't allow it directly 🙄)
+
+```bash
+git clone https://github.com/userName/Repo New_Repo
+cd New_Repo
+git remote set-url origin https://github.com/userName/New_Repo
+git remote add upstream https://github.com/userName/Repo # Optional
+git push origin main
+git push --all
+```
+
 ## Remote Commands
 
 ```bash
